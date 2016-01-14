@@ -1,0 +1,16 @@
+{
+    "name": "Frank Hello World Example",
+    "description": "An example application using Swift on Heroku using Frank.",
+    "repository": "https://github.com/nestproject/Frank-example",
+    "website": "https://github.com/nestproject/Frank",
+    "keywords": [
+        "swift",
+        "frank",
+        "nest"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kylef/heroku-buildpack-swift"
+        }
+    ]
+}
